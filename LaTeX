@@ -1,0 +1,130 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt}
+\renewcommand{\arraystretch}{0.8}
+
+
+\begin{minipage}[t]{0.4\textwidth}
+    \raggedright
+    {\Huge \textbf{\textbf{Phillippa Hamilton}}} \hfill \\ {\large \textit{Software Engineer}}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \begin{tabular}{ll}
+        \textbf{Phone:} & +447599693641 \\
+        \textbf{Email:} & phillippa.hamilton@gmail.com \\
+        \textbf{Linkedin:} & www.linkedin.com/in/phillippa-hamilton\\
+        \textbf{Github:} & https://github.com/phillippa1\\
+    \end{tabular}
+\end{minipage}
+
+\vspace{1em} 
+
+\noindent\rule{\textwidth}{0.4pt}
+
+\begin{multicols}{2}
+
+% Left-hand column
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Belfast High School:}
+    A levels (2019-2021): A in Maths, A in Physics, A in Chemistry \\
+    GCSEs (2017-2019): 7A*s, 3As
+
+    \item \textbf{Other:}
+    \begin{itemize}[leftmargin=1em]
+        \item Duke of Edinburgh, Bronze Award
+        \item Sailing Level Four and Start Racing
+        \item Cross country at Ulster Level
+        \item Honours Swimming award
+        \item Sentinus team for physics
+        \item First year Mentor for computer science students as Glasgow University
+        \item Committee member for Glasgow University's open water swimming club
+        \item Member of squash club at Glasgow University
+    \end{itemize}
+
+    \item \textbf{UCAT:}
+    I completed the UCAT, which allowed me to develop and assess my own ability to work under time pressure, and my reasoning and logic skills. My score of 2780 placed me in the top 20\% of candidates in 2021.
+
+    \item \textbf{Music:}
+    \begin{itemize}[leftmargin=1em]
+        \item Piano Grade Eight Distinction
+        \item Guitar Grade Eight Merit
+        \item Saxophone Grade Five
+        \item Numerous awards at different music festivals, including first prize at Mossley music festival in the trio category for piano.
+        \item Belfast High school Piano cup
+    \end{itemize}
+
+    \item \textbf{Volunteering:}
+    \begin{itemize}[leftmargin=1em]
+        \item Castle Practice GP surgery vaccines centre - I have done this multiple times during the pandemic. I guided patients into and out of the vaccination centre safely and effectively, demonstrating my professional skills.
+    \end{itemize}
+\end{itemize}
+
+% Main column
+\columnbreak
+
+\section*{\textbf{Education}}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Glasgow University:} Bachelor of Computer Science, Class representative for the third year of a four-year course.
+    \begin{itemize}[leftmargin=1em]
+        \item \textbf{Programming languages:}
+        \begin{itemize}[leftmargin=1em]
+            \item Proficient in Python with experience in data structures and algorithms
+            \item Familiar with Java, C, and C++
+            \item Knowledge of HTML for web development
+            \item Latex (For example this document was made on latex using overleaf)
+        \end{itemize}
+
+        \item \textbf{Development tools:}
+        \begin{itemize}[leftmargin=1em]
+            \item Experienced with version control systems: GitHub and GitLab
+        \end{itemize}
+
+        \item \textbf{Coursework:}
+        \begin{itemize}[leftmargin=1em]
+            \item Networks and operating systems
+            \item Algorithmic foundations
+            \item Machine code
+        \end{itemize}
+
+        \item \textbf{Teamwork and collaboration:}
+        \begin{itemize}[leftmargin=1em]
+            \item Worked in teams to create group projects, developing strong communication and collaboration skills
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\section*{\textbf{Work Experience}}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Sales Assistant, Asda} - Shore Rd, Belfast BT15 3PR (Dec 2021-Jun 2022)
+    \begin{itemize}[leftmargin=1em]
+        \item Developed high-level customer service skills and communicated effectively with colleagues and customers.
+    \end{itemize}
+\item \textbf{Observer, Kingsbridge Private Practice} - 811-815 Lisburn Rd, Belfast BT9 7GX (Jun 2021-Jul 2021)
+    \begin{itemize}[leftmargin=1em]
+        \item Observed surgical procedures, witnessing teamwork, communication, and focus in a professional environment.
+    \end{itemize}
+\item \textbf{Receptionist, The Health Centre} - Taylors Ave, Carrickfergus BT38 7HU (Jul 2021-Sep 2021, Jul 2022-Aug 2022, Jul 2023-Aug 2023)
+    \begin{itemize}[leftmargin=1em]
+        \item Protected confidential information and uploaded medical records to the system. Volunteered at the Castle Practice vaccines centre, guiding patients.
+    \end{itemize}
+\item \textbf{Invigilator, MTS} (Apr 2023-Present)
+    \begin{itemize}[leftmargin=1em]
+        \item Dealt with unexpected situations, worked as a team to solve problems and ensured a smooth examination process.
+    \end{itemize}
+\end{itemize}
+
+\end{multicols}
+
+\end{document}
